@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgb(55, 190, 62);
+}
+
+li {
+  list-style: none;
+}
+.container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0, 255, 98);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height: 100vh;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 120px; */
+}
+.logo img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+nav {
+  background-color: rgb(255, 254, 254);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  width: 150px;
+  /* height: 1px; */
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+  margin-top: 40px;
+  margin-left: 300px;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+}
+main {
+  margin-top: 20px;
+  text-align: center;
+}
+.text h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+.text p {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(240, 236, 236);
+  font-weight: 500;
+}
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  outline: none;
+  border: 3px solid #fff;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 400;
+}
+button:hover {
+  background-color: #fff;
+}
+.inputs {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+input {
+  height: 15px;
+  margin-top: 20px;
+  width: 400px;
+  padding: 20px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+footer {
+  margin-top: 70px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
